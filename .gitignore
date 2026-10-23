@@ -1,0 +1,33 @@
+# Local experimental inputs and building assets: redistribution not established.
+/data/raw/**
+/data/metadata/**
+/data/calibration/**
+/data/processed/
+/*.png
+/*.jpg
+/*.pdf
+/.local-validation/
+/artifacts/
+/Course Materials/
+/References/
+/Archive/
+*.zip
+*.npz
+*.mp4
+*.gif
+*_Executed.ipynb
+Verified_Execution.ipynb
+.ipynb_checkpoints/
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.matplotlib_cache/
+.cache/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+Thumbs.db

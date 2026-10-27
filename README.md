@@ -143,7 +143,4 @@ This is collaborative Group E work by Arpitha Thimmegowda, Darshan Morkar and
 Venkata Kishore Dannana. See [Contributors](CONTRIBUTORS.md) for attribution and
 the three scientific sources retained from the project.
 
-No project license or grant of redistribution rights was found. No open-source
-license is asserted. Team-code permission, building-asset permission and dataset
-publication permission must be resolved before public distribution. Third-party
-libraries retain their own licenses.
+No project license or recorded grant of redistribution rights was found. **This repository is currently public, but the available project documentation does not establish that all teammates approved publication of the jointly developed code.** The repository owner should confirm team and applicable institutional permissions; if approval is missing, temporarily restrict access while resolving it. The building assets and datasets remain excluded pending separate permission. Public visibility does not grant an open-source license or additional reuse rights. Third-party libraries retain their own licenses.

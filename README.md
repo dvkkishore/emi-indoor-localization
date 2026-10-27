@@ -91,16 +91,16 @@ and troubleshooting.
 
 ## Validation and Results
 
-The publication-preparation audit reran the unchanged code against the four
-configured July 18-19 recordings in an isolated local directory. All ten code
+A documented verification run on 23 October 2026 executed the unchanged code
+against the four configured July 18–19 recordings in an isolated environment. All ten code
 cells completed. With seed 42, the pooled mean error is **2.630 m over 22
 checkpoints**, or **3.024 m over 18 checkpoints excluding known Starts**. The
 [experiment record](docs/EXPERIMENTS.md) records the result and its provenance.
 Checkpoint error is not continuous ground-truth trajectory error; the default
 summary includes known Starts and skips references without an estimated floor.
 
-No pre-existing automated test suite was found. The preparation audit checks
-notebook structure, original code-cell preservation, local documentation links,
+No automated regression-test suite is included. The recorded verification
+checked notebook structure, unchanged code cells, local documentation links,
 dependency imports, execution results and distribution exclusions. It does not
 establish performance on unseen participants or buildings.
 
@@ -117,7 +117,6 @@ establish performance on unseen participants or buildings.
     |-- SETUP.md                     # Installation and execution
     |-- DATA.md                      # Schemas, provenance and rights
     |-- EXPERIMENTS.md               # Verified evidence and metric limits
-    `-- DOCUMENTATION_AUDIT.md       # Scope, unresolved issues, GitHub metadata
 ```
 
 ## Known Limitations
@@ -131,9 +130,9 @@ establish performance on unseen participants or buildings.
 - Map tests check particle endpoints, not the swept motion through walls.
 - Floor-conditioned nearest-time checkpoint matching can use future estimates,
   select distant times and omit missing-floor checkpoints.
-- Original device notes, run metadata, README numbers and saved execution
-  disagree. The audit documents these inconsistencies rather than treating all
-  historical files as one benchmark.
+- Historical device notes, recording metadata and saved notebook outputs are
+  inconsistent. [Experiments](docs/EXPERIMENTS.md) identifies which source and
+  inputs produced the reported results.
 - Five-seed performance values in the old README lack a matching captured
   experiment in this snapshot and are not presented as verified benchmarks.
 
@@ -143,4 +142,4 @@ This is collaborative Group E work by Arpitha Thimmegowda, Darshan Morkar and
 Venkata Kishore Dannana. See [Contributors](CONTRIBUTORS.md) for attribution and
 the three scientific sources retained from the project.
 
-No project license or recorded grant of redistribution rights was found. **This repository is currently public, but the available project documentation does not establish that all teammates approved publication of the jointly developed code.** The repository owner should confirm team and applicable institutional permissions; if approval is missing, temporarily restrict access while resolving it. The building assets and datasets remain excluded pending separate permission. Public visibility does not grant an open-source license or additional reuse rights. Third-party libraries retain their own licenses.
+**License and distribution:** This is a collaborative academic project. No open-source license has been granted for the project code, and authorization for its public distribution is not documented in the available project records. Publication and reuse rights need to be confirmed with the contributors and, where applicable, the institution. Recordings, building floor plans, beacon metadata and calibration data are not distributed. Third-party dependencies retain their own licenses.

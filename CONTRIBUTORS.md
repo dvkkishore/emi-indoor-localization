@@ -9,14 +9,13 @@ dated 22 July 2026:
 
 The field notes assign observation to Arpitha, protocol recording to Darshan,
 and phone carrying to Venkata Kishore. These are data-collection roles, not
-proof of exclusive code ownership. The available project history does not
-establish a reliable final per-function contribution breakdown. This repository
-must not present the complete team implementation as one person's sole work.
+proof of exclusive code ownership. The project records do not establish a complete per-function contribution
+breakdown; individual responsibilities should not be inferred from filenames
+or data-collection roles.
 
 The published notebook preserves all code-cell source from the preferred
-adaptive notebook. Documentation and publication preparation were completed
-with coding-assistant support. Outputs were cleared, author email addresses
-removed, and stale narrative claims revised; the algorithms were not refactored.
+adaptive notebook. The public copy excludes generated outputs and author email addresses;
+algorithm code was preserved without refactoring during preparation.
 
 ## Scientific Sources
 
@@ -38,11 +37,9 @@ not Faragher and Harle's fingerprinting dataset or model.
 
 ## Rights
 
-No license file was found in the inspected submission variants. Contributor
-names do not themselves grant redistribution rights. **This repository is now
-public, but the available documentation does not establish teammate permission
-for publishing the shared code.** Confirm team consent and applicable
-institutional requirements promptly; if those rights are unresolved, consider
-making the repository private while obtaining approval. Recordings, floor plans,
-beacon identifiers and calibration data have separate unresolved distribution
-rights and are not included in the repository.
+No project license is specified. This is collaborative academic work, and
+permission for public distribution of the shared code has not been documented
+in the available project records. Publication and reuse should be agreed with
+the contributors and checked against applicable institutional requirements.
+Recorded sensor data, floor plans, beacon metadata and calibration data are
+not distributed because their release permissions have not been established.

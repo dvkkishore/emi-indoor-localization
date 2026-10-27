@@ -80,11 +80,11 @@ a standalone executable label-generation tool was not found in this package.
 Raw logs include absolute timestamps, Bluetooth addresses, device identifiers
 and free-text notes. Metadata and images describe a real university building.
 Notebook outputs can embed these fields and images. The source notebooks also
-contained author email addresses; this candidate retains names without emails.
+contained author email addresses; the published notebook retains names without emails.
 
-No dataset, map or code publication license was established. The Git candidate
-therefore excludes all local raw data, metadata, calibration files, floor plans,
-processed data and executed notebook outputs. Aggregate metrics may be reviewed
+No dataset, map or project-code publication license was established in the
+preparation record. The public repository excludes local raw data, metadata,
+calibration files, floor plans, processed data and executed notebook outputs. Aggregate metrics may be reviewed
 without disclosing raw traces, but still describe a team experiment. Obtain
 team and institutional permissions before distributing any excluded assets.
 

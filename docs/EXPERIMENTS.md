@@ -9,7 +9,7 @@ renamed notebook; presentation outputs and author emails were removed, and
 documentation cells were corrected. See [validation evidence](validation_evidence.json)
 for source, code and input SHA-256 hashes.
 
-The preparation audit on **23 October 2026** executed all ten code cells in order
+On **23 October 2026**, a verification run executed all ten code cells in order
 from a fresh processed-data state, using Python 3.13.2 and seed 42. Animation
 generation remained disabled. Execution completed without a notebook error.
 The local executed notebook and raw per-checkpoint outputs remain excluded from
@@ -83,8 +83,8 @@ additional validated releases of this repository:
 | `Task_3/` | Earlier scripts, copies and development outputs |
 | `Archive/`, `Others/` | Historical material outside this repository candidate |
 
-The five-seed numbers in the selected source README were not rerun or
-independently verified in this documentation pass. Earlier paper-guided trial
+Historical five-seed results were not independently reproduced by the
+recorded verification run. Earlier paper-guided trial
 metrics used different implementations and reference conventions and must not
 be combined with this result table.
 

@@ -1,7 +1,11 @@
 # Documentation Audit
 
-Prepared 23 October 2026 from the actual local workspace. This is a publication
-candidate, with unresolved code and asset distribution rights.
+Prepared 23 October 2026 from the original local workspace as a **prepublication
+review record**. The GitHub repository has subsequently become public, but the
+audit did not establish team authorization to publish the collaboratively
+developed code or distribution rights for excluded building assets and data.
+This document records the earlier preparation steps; it is not a publication
+permission or a statement that the repository remains private.
 
 ## Files and Scope
 
@@ -66,11 +70,13 @@ Topics: `indoor-localization`, `sensor-fusion`, `particle-filter`, `pedestrian-d
 
 Use a separate preparation branch for review. The connected GitHub account is
 `dvkkishore`; no existing EMI repository was found in its returned repository
-list before preparation. A private `dvkkishore/emi-indoor-localization`
-repository was created for review. The existing workspace `origin` is the university GitLab repository and
-must not be replaced with GitHub. A draft PR requires a created destination
-repository and base branch. Public distribution remains a separate decision
-until the rights above are resolved.
+list before preparation. A private `dvkkishore/emi-indoor-localization` repository was originally
+created for review and was later made public. The original workspace Git remote
+was the university GitLab repository and was not replaced during preparation.
+The publication-rights decision remains unresolved in the recorded evidence;
+confirm approval with the collaborators and institution. Historical setup
+instructions from the staging process should not be followed as current
+repository-creation steps.
 
 ## Future Documentation
 

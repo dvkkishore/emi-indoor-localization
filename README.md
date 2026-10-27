@@ -142,4 +142,4 @@ This is collaborative Group E work by Arpitha Thimmegowda, Darshan Morkar and
 Venkata Kishore Dannana. See [Contributors](CONTRIBUTORS.md) for attribution and
 the three scientific sources retained from the project.
 
-**License and distribution:** This is a collaborative academic project. No open-source license has been granted for the project code, and authorization for its public distribution is not documented in the available project records. Publication and reuse rights need to be confirmed with the contributors and, where applicable, the institution. Recordings, building floor plans, beacon metadata and calibration data are not distributed. Third-party dependencies retain their own licenses.
+**License and data availability:** EMI is a collaborative academic project. No open-source license has been assigned. Please contact the project contributors about permission to reuse or redistribute the code. Sensor recordings, floor plans, beacon metadata and calibration data are not included because their distribution rights have not been established. Third-party libraries retain their respective licenses.

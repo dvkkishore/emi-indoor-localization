@@ -19,9 +19,9 @@ data/
     `-- step_length_training.csv         # Optional; needed for adaptive model
 ```
 
-The original files are in the local workspace's
-`Portfolio_3_Group_E_Adaptive_Regression/final_adaptive/`. Copy authorized
-inputs into the layout above; no automatic public download is configured.
+The original recordings and building assets are not distributed with this
+repository. If you have authorized access to the project inputs, arrange them
+in the layout above; no public download is provided.
 Do not use the older `R1_old.csv`-`R4_old.csv` names as replacements for the
 configured July 18-19 recordings.
 
@@ -88,5 +88,5 @@ calibration files, floor plans, processed data and executed notebook outputs. Ag
 without disclosing raw traces, but still describe a team experiment. Obtain
 team and institutional permissions before distributing any excluded assets.
 
-No credentials were identified by the targeted text scan of the candidate.
-That scan is not a guarantee about every historical archive in the workspace.
+No credentials were identified in the published files during the preparation
+scan. This does not constitute a security audit of the private project archive.
